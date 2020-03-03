@@ -1,0 +1,41 @@
+[debug] [2018-08-11T05:10:51.809Z] ----------------------------------------------------------------------
+[debug] [2018-08-11T05:10:51.811Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-08-11T05:10:51.811Z] CLI Version:   3.19.1
+[debug] [2018-08-11T05:10:51.811Z] Platform:      darwin
+[debug] [2018-08-11T05:10:51.811Z] Node Version:  v8.6.0
+[debug] [2018-08-11T05:10:51.823Z] Time:          Sat Aug 11 2018 08:10:51 GMT+0300 (EEST)
+[debug] [2018-08-11T05:10:51.824Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-11T05:10:51.876Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-11T05:10:51.876Z] > authorizing via signed-in user
+[debug] [2018-08-11T05:10:51.878Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-11T05:10:51.878Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/KXlBGcCVC4vmtzPNuhIQcgA_kQeUDLfzW6DQ4J-b83w',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Aug 11 2018 08:10:51 GMT+0300 (EEST)
+[debug] [2018-08-11T05:10:52.326Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-11T05:10:52.375Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/multisnakeplayer  
+  
+ Sat Aug 11 2018 08:10:52 GMT+0300 (EEST)
+[debug] [2018-08-11T05:10:54.685Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-11T05:10:54.686Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/multisnakeplayer/tokens  
+  
+ Sat Aug 11 2018 08:10:54 GMT+0300 (EEST)
+[debug] [2018-08-11T05:10:55.443Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-11T05:10:55.444Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/multisnakeplayer  
+  
+ Sat Aug 11 2018 08:10:55 GMT+0300 (EEST)
+[debug] [2018-08-11T05:10:56.529Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/andreas/Documents/Development/games/snake'...
+[info] 
+[debug] [2018-08-11T05:10:56.530Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/55059032153/clients/_:getWebAppConfig  
+  
+ Sat Aug 11 2018 08:10:56 GMT+0300 (EEST)
+[debug] [2018-08-11T05:10:57.790Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: /
+[info] ✔  hosting: Local server: http://localhost:5000
+
